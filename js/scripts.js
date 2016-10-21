@@ -6,6 +6,7 @@ $(document).ready(function() {
     $('#hero').css('top', -(scrolled * 0.3) + 'px');
 	}
 
+
 	$(window).scroll(function(e){
 	    parallax();
 	});
