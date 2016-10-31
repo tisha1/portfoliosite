@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="down-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pin" transform="translate(1.000000, 1.000000)">
+            <circle id="Base" stroke="#9B9B9B" cx="12" cy="12" r="12"></circle>
+            <path d="M7.29289322,11.7071068 L11.2928932,15.7071068 C11.6834175,16.0976311 12.3165825,16.0976311 12.7071068,15.7071068 L16.7071068,11.7071068 C17.0976311,11.3165825 17.0976311,10.6834175 16.7071068,10.2928932 C16.3165825,9.90236893 15.6834175,9.90236893 15.2928932,10.2928932 L11.2928932,14.2928932 L12.7071068,14.2928932 L8.70710678,10.2928932 C8.31658249,9.90236893 7.68341751,9.90236893 7.29289322,10.2928932 C6.90236893,10.6834175 6.90236893,11.3165825 7.29289322,11.7071068 L7.29289322,11.7071068 Z" id="Chevron" fill="#9B9B9B"></path>
+        </g>
+    </g>
+</svg>

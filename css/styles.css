@@ -10,6 +10,7 @@ html, body {
 
 }
 
+
 .containerWidth {
 	width: 1000px;
 	margin: 0 auto;
@@ -24,6 +25,24 @@ html, body {
 	font-weight: 700;
 }
 
+.clear {
+	clear: both;
+}
+
+
+
+
+.arrow {
+	
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+
+
+
 /* Home Section*/
 
 #home {
@@ -31,6 +50,12 @@ html, body {
 	height: 1024px;
 
 
+}
+
+#home svg {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
 }
 
 section h3 {
@@ -51,11 +76,11 @@ nav a {
 }
 
 nav a:hover {
-	border-bottom: 3px solid #ff0080;
+	border-bottom: 2px solid #ff0080;
 
 }
 
-.firstLine {
+/*.firstLine {
 	animation: typeOne 2s steps(120, end);
 
 }
@@ -67,7 +92,7 @@ nav a:hover {
 .colorChange {
 	animation: fadeIn 2s 4s;
 }
-
+*/
 
 
 
@@ -102,12 +127,14 @@ nav a:hover {
 #work {
 	background-color: #3d3737;
 	color: #fff;
-	height: 1024px;
+	height: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #work ul {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	text-align: center;
 
 }
@@ -115,6 +142,11 @@ nav a:hover {
 #work li {
 	display: inline-block;
 	margin: 20px;
+}
+
+#work li a img:hover {
+	border: 2px solid #ff0080;
+	
 }
 
 #work p {
@@ -126,7 +158,7 @@ nav a:hover {
 
 #about {
 	height: 512px;
-	padding-top: 60px;
+	padding-top: 40px;
 	
 }
 
@@ -138,21 +170,34 @@ nav a:hover {
 
 #about p {
 	margin-top: 20px;
+	margin-bottom: 40px;
 	
 }
+
+
 
 /* Footer Section*/
 
 #footer {
 	background-color: #3d3737;
 	padding-top: 40px;
-	height: 512px;
+	padding-bottom: 40px;
+	height: auto;
 }
 
 #footer img	{
 	margin-right: 20px;
 
 }
+
+#footer svg {
+	display: block;
+	margin: 0 auto 40px;
+}
+
+
+
+
 
 #links {
 	float: left;
@@ -223,12 +268,17 @@ button:active {
 
 }
 
-#footer hr {
+/*#footer hr {
 	clear: both;
-}
+
+}*/
 
 #footer p {
+	clear:both;
 }
+
+
+
 
 /* Media Queries - Mobile */
 
