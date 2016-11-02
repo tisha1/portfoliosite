@@ -9,25 +9,13 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	background-color: #FCFCF7;
-
-
 }
 
 .containerWidth {
 	width: 1000px;
 	margin: 0 auto;
-	
 }
 
-.buttonColorBox {
-	color: #fff;
-	background-color: #FF5252;
-	border-radius: 3px;
-	padding: 4px 25px;
-	letter-spacing: 2px;
-	font-size: .7rem;
-	font-family: 'Lato', sans-serif;
-}
 
 
 .clear {
@@ -42,18 +30,17 @@ html, body {
 
 
 
-/* Home Section*/
+/*********** Home Section ***********/
 
 #home {
 	padding-top: 40px;
-	height: 1024px;
+	height: auto;
 }
 
 #home svg {
 	display: block;
 	text-align: center;
-	margin: 0 auto;
-
+	margin: 140px auto 40px;
 }
 
 section h3 {
@@ -62,30 +49,42 @@ section h3 {
 
 section nav {
 	text-align: right;
-
 }
 
 nav a {
 	text-decoration: none;
-	margin-left: 40px;
+	margin-left: 30px;
 	padding-bottom: 2px;
 	color: #9b9b9b;
 }
 
 nav a:hover {
 	color: #3d3737;
-	}
+}
+
+.buttonColorBox {
+	color: #fff;
+	background-color: #FF5252;
+	border-radius: 3px;
+	padding: 4px 25px;
+	letter-spacing: 2px;
+	font-size: .7rem;
+	font-family: 'Lato', sans-serif;
+}
 
 
 #hero {
-	margin-top:200px;
-	margin-bottom: 80px;
+	margin-top:180px;
+	margin-bottom: 40px;
+	height: 100px;
+	position: relative;
+
 
 }
 
 #hero span {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 11rem;
+	font-size: 8.5rem;
 	font-weight: 800;
 }
 
@@ -106,13 +105,13 @@ nav a:hover {
 }
 
 @keyframes slide {
-	100% { left:540px; }
+	100% { left:260px; }
 }
 
 .orange {
 	/*color: rgba(245,166,35, 1);*/
 	color: rgba(244,172,53,1);
-	letter-spacing: 36px;
+	letter-spacing: 20px;
 	z-index: 1;
 	right: -1000px;
 	position: absolute;
@@ -127,14 +126,14 @@ nav a:hover {
 }
 
 @keyframes slideRight {
-	100% { right:430px; }
+	100% { right:200px; }
 }
 
 #home p {
 	font-family: 'Lato', sans-serif;
 	font-size: 1rem;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: center;
 	color: #3d3737;
 	letter-spacing: 1px;
@@ -143,7 +142,9 @@ nav a:hover {
 
 
 
-/* Work Section */
+
+
+/*********** Work Section ***********/
 
 #work {
 	background-color: #3d3737;
@@ -179,11 +180,12 @@ nav a:hover {
 	font-weight: 700;
 }
 
-/* About Section*/
+/*********** About Section ***********/
 
 #about {
-	height: 512px;
+	height: auto;
 	padding-top: 40px;
+	background-color: #FFFDEE;
 	
 }
 
@@ -198,20 +200,45 @@ nav a:hover {
 	font-weight: 700;
 }
 
+#about h6 {
+	font-family: 'Lato', sans-serif;
+	font-size: .8rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #3d3737;
+}
+
 #about p {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 40px;
 	line-height: 1.8;
 }
 
+.aboutContent {
+	width: 80%;
+	margin: 100px auto;
+	text-align: center;
+}
+
 .skillBlock {
+	width: 240px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+
+.center {
+	text-align: center;
 	
 }
 
-/* Footer Section */
+
+
+/*********** Footer Section ***********/
 
 #footer {
-	background-color: #3D9BA9;
+	/*background-color: #3D9BA9;*/
+	background-color: #3d3737;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	height: auto;
@@ -305,7 +332,7 @@ button {
 }
 
 
-/* Media Queries - Mobile */
+/*********** Media Queries - Mobile ***********/
 
 @media screen and (max-width: 768px) {
 
@@ -331,6 +358,10 @@ button {
 #about {
 	height: auto;
 	padding-bottom: 60px;
+}
+
+#about img {
+	margin-bottom: 40px;
 }
 
 #footer {
@@ -384,6 +415,100 @@ label {
 
 
 /* CSS animate Animations*/
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
 
 @-webkit-keyframes zoomIn {
   from {
@@ -504,7 +629,7 @@ label {
 
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.1, 1.1, 1.1);
   }
 
   to {
@@ -516,6 +641,8 @@ label {
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 

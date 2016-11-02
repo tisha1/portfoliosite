@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="30px" viewBox="0 0 42 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>notebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notebook">
+            <path d="M37,22 C37,22.553 36.553,24 36,24 L6,24 C5.448,24 5,22.553 5,22 L5,1 C5,0.447 5.448,0 6,0 L36,0 C36.553,0 37,0.447 37,1 L37,22 L37,22 Z" id="Shape" fill="#455A64"></path>
+            <rect id="Rectangle-path" fill="#BBDEFB" x="7" y="2" width="28" height="18"></rect>
+            <g id="Group" transform="translate(0.000000, 22.000000)" fill="#CFD8DC">
+                <rect id="Rectangle-path" x="0" y="6" width="42" height="2"></rect>
+                <polygon id="Shape" points="37 0 5 0 0 6 42 6"></polygon>
+            </g>
+            <polygon id="Shape" fill="#546E7A" points="7 23 35 23 37 26 5 26"></polygon>
+            <polygon id="Shape" fill="#90A4AE" points="25 26 17 26 16 28 26 28"></polygon>
+        </g>
+    </g>
+</svg>
