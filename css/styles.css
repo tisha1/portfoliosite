@@ -378,7 +378,7 @@ button {
 
 
 /* Tablet 768px */
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 1024px) {
 
 .containerWidth {
 	width: 80%;
@@ -626,13 +626,13 @@ label {
 }
 
 .header h3 {
-	float: left;
-	font-size: .5rem;
+	float: none;
+	font-size: 1rem;
 }
 
 .header nav {
-	float: right;
-	font-size: .5rem;
+	float: none;
+	font-size: 1rem;
 }
 
 nav a {
@@ -657,8 +657,12 @@ nav a:hover {
 	font-family: 'Lato', sans-serif;
 }
 
+#hero {
+	clear:bothz;
+}
+
 #hero span {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 @-webkit-keyframes slide {
@@ -681,6 +685,11 @@ nav a:hover {
 #work img {
 	max-width: 100%;
 	height: auto;
+}
+
+#about {
+	height: auto;
+	padding-bottom: 20px;
 }
 
 .aboutContent {
