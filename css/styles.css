@@ -496,11 +496,13 @@ label {
 	height: auto;
 }
 
-nav a {
+nav {display: none;}
+
+/*nav a {
 	text-decoration: none;
 	margin-left: 10px;
 	color: #9b9b9b;
-}
+}*/
 
 #hero {
 	clear: both;
