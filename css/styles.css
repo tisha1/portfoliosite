@@ -44,22 +44,43 @@ html, body {
 	margin: 140px auto 40px;
 }
 
-.header {
-	height: 50px;
+header {
+	overflow: hidden;
 }
 
-.header h3 {
+header h3 {
 	float: left;
 }
 
-.header nav {
+header nav {
 	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 0 0 40px;
+}
+
+header nav .line {
+	width: 2em;
+	height: .3em;
+	background: #FF5252;
+	border-radius: 1em;
+	margin-top: .25em;
+}
+
+header nav .line:first-of-type {
+	margin-top: .7em;
+}
+
+header nav li:first-child {
+	float: right;
+	display: none;
+	cursor: pointer;
 }
 
 nav a {
 	text-decoration: none;
-	margin-left: 30px;
-	padding-bottom: 2px;
 	color: #9b9b9b;
 }
 
@@ -85,6 +106,7 @@ nav a:hover {
 	margin-bottom: 40px;
 	height: 100px;
 	position: relative;
+	padding-top: 200px;
 
 
 }
@@ -140,7 +162,7 @@ nav a:hover {
 	font-family: 'Lato', sans-serif;
 	font-size: 1rem;
 	margin-bottom: 20px;
-	margin-top: 10px;
+	margin-top: 130px;
 	text-align: center;
 	color: #3d3737;
 	letter-spacing: 1px;
@@ -389,6 +411,53 @@ button {
 	height: auto;
 }
 
+header nav {
+    width: 100%;
+    margin: 0;
+ }
+ 
+header nav ul li {
+    float: none;
+    display: block;
+    margin: 0;
+}
+
+header nav ul li:first-child {
+    display:block;
+    position: absolute;
+    top:.6em;
+    right:.75em;
+}
+
+header nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+ 
+header nav ul {
+    height:0;
+    transition:height 1s;
+    overflow: hidden;
+}
+
+header nav ul.slideDown {
+    height: 10em;
+}
+
+
+  
+ 
+
+
+
+
+
+
+
+
 #hero {
 	clear: both;
 	margin-top:180px;
@@ -496,7 +565,6 @@ label {
 	height: auto;
 }
 
-nav {display: none;}
 
 /*nav a {
 	text-decoration: none;
